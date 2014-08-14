@@ -14,13 +14,16 @@
 ## example:
 ## create an invertible matrix
 ## m <- matrix(c(1,0,1,0,2,0,1,0,3), nrow = 3, ncol = 3)
+
 ## store m in the cache and create four functions.
 ## p <- makeCacheMatrix(m)
-## calculate inverse of m and set it to cache and return it.
-## cacheSolve(p)
-## returns cached inverse
+
+## calculate inverse of m and return it
+## set it to cache for future use
 ## cacheSolve(p)
 
+## returns cached inverse
+## cacheSolve(p)
 
 ## name: makeCacheMarix
 ## input: an invertible matrix m
